@@ -3,6 +3,8 @@
 
 #include <QWidget>
 
+#include "buttonform.h"
+
 namespace Ui {
 class Widget;
 }
@@ -17,6 +19,9 @@ public:
 
 private:
     Ui::Widget *ui;
+
+    ButtonForm m_buttonsForm;
+
 };
 
 #endif // WIDGET_H

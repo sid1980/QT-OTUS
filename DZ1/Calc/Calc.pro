@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT += script
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -26,15 +27,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         widget.cpp \
-    buttonform.cpp
+    buttonform.cpp \
+    calculate.cpp
 
 HEADERS += \
         widget.h \
-    buttonform.h
+    buttonform.h \
+    calculate.h
 
 FORMS += \
         widget.ui \
     buttonform.ui
 
 DISTFILES += \
-    ../README.md
+    ../README.md \
+    readme.txt
